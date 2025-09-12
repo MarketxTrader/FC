@@ -1,7 +1,7 @@
 body {
   margin: 60px 10px 10px 10px;
   /* margin-top: 65px; */
-  font-family: "Khmer OS Battambang", Arial, sans-serif,Noto Serif Khmer, "Moul" ;
+  font-family: "Khmer OS Battambang", Arial, sans-serif,Noto Serif Khmer, "Moul", "Kantumruy Pro" ;
   text-align: center;
   background: #fff;
   
@@ -114,7 +114,7 @@ video.bg-video:unsupported .bg-fallback {
 }
 
 .topbar {
-  background: #0066cc;
+  background: #ffd900;
   height: 70px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -125,23 +125,23 @@ video.bg-video:unsupported .bg-fallback {
   width: 100px;
   margin-top: -50px;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .logo-box h2 {
   margin: 0;
-  color: #333;
+  color: #000000;
 }
 .logo-box h1 {
   margin: 0;
   font-size: 22px;
-  color: #0066cc;
+  color: #ffd900;
   
 }
 
 .gold-box {
-  background: #0066cc;
-  color: #ffffff;
+  background: #ffd900;
+  color: #000000;
   padding: 15px;
   border-radius: 20px;
   margin: 15px;
@@ -150,22 +150,22 @@ video.bg-video:unsupported .bg-fallback {
 }
 .gold-box h3 {
   margin-top: 0;
-  color: #ffc107;
+  color: #000000;
   font-family: 'Moul';
-  font-size: 17px;
+  font-size: 20px;
 }
 .date {
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 20px;
 }
 .highlight {
-  color: #ffc107;
+  color: #ffd900;
   font-weight: bold;
 }
 
 table {
   width: 100%;
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
   font-weight: bold;
 }
@@ -174,23 +174,23 @@ table td {
 }
 /*--------- Price Gold Present -------*/
 #barPrice{
-    color:#ffc107;
+    color:#0066ff;
 }
 #phiPrice{
-    color:#ffc107;
+    color:#0066ff;
 }
 #nutiemPrice{
-    color:#ffc107;
+    color:#0066ff;
 }
 /*--------- Date Present -------*/
 #date{
-    color:#ffc107;
+    color:#0066ff;
 }
 #time-post{
-    color:#ffc107;
+    color:#0066ff;
 }
 #time{
-    color:#ffc107;
+    color:#0066ff;
 }
 
 .footer {
@@ -198,25 +198,25 @@ table td {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0066cc;
-  color: #fff;
+  background: #ffd900;
+  color: #000000;
   padding: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  font-family: Noto Serif Khmer;
+  font-family: Kantumruy Pro ;
   box-shadow: 0 -4px 9px rgba(0, 0, 0, 0.904);
 }
 .footer .contact {
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
 }
 .footer .phone {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 .footer img {
-  width: 70px;
-  border-radius: 10px;
+  width: 80px;
+  border-radius: 15px;
 }
 /* .icon {
     width: 10px;
