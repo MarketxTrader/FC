@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FC CAMBODIA | Login & Signup</title>
+<meta name="description" content="សូមស្វាគមន៍មកកាន់គេហទំព័រ FC CAMBODIA - ចូលមើល និងចុះឈ្មោះបានយ៉ាងងាយស្រួល។">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,83 +15,23 @@
 
 <div class="form-box login-active" id="formBox">
   <img src="Logo/FC.png" alt="Market Trader Logo" class="logo">
-
-  <div class="form-wrapper">
-    <!-- LOGIN FORM -->
-    <form id="loginForm">
-      <label>Email</label>
-      <input type="text" placeholder="Enter your email" id="loginEmail" required>
-      <span class="error" id="loginEmailError"></span>
-
-      <label>Password</label>
-      <div class="password-wrapper">
-        <input type="password" placeholder="Enter your password" required id="loginPassword">
-        <img src="https://img.icons8.com/3d-fluency/94/lock--v2.png" 
-             alt="Show/Hide Password" 
-             class="toggle-password" 
-             id="loginPasswordIcon"
-             onclick="togglePassword('loginPassword', this)">
-      </div>
-      <span class="error" id="loginPasswordError"></span>
-
-      <a href="#" class="forgot">Forget Password</a>
-      <button type="submit" class="btn">Login</button>
-      <div class="toggle-link">
-        Don’t have an account? <a id="toSignup">Sign up now</a>
-      </div>
-    </form>
-
-    <!-- SIGNUP FORM -->
-    <form id="signupForm">
-      <label>Full Name</label>
-      <input type="text" placeholder="Enter your name" id="signupName" required>
-
-      <label>Email</label>
-      <input type="email" placeholder="Enter your email" id="signupEmail" required>
-      <span class="error" id="signupEmailError"></span>
-
-      <label>Password</label>
-      <div class="password-wrapper">
-        <input type="password" placeholder="Enter your password" required id="signupPassword">
-        <img src="https://img.icons8.com/3d-fluency/94/lock--v2.png" 
-             alt="Show/Hide Password" 
-             class="toggle-password" 
-             id="signupPasswordIcon"
-             onclick="togglePassword('signupPassword', this)">
-      </div>
-      <span class="error" id="signupPasswordError"></span>
-
-      <button type="submit" class="btn">Sign up</button>
-      <div class="toggle-link">
-        Already have an account? <a id="toLogin">Login</a>
-      </div>
-    </form>
+  <div>
+  <h1>សួស្តីសូមស្វាគមន៍មកកាន់គេហទំព័រ</h1></h1>
+    <h4>FC CAMBODIA</h4>
   </div>
-  <!-- Loader Overlay -->
-  <div class="loader-overlay hidden" id="loader">
-    <div class="loaderBar"></div>
-  </div>
+  <!-- From Uiverse.io by Na3ar-17 --> 
+<button class="button" onclick="continueAction()">
+  <span class="label">ចូលមើល</span>
+  <span class="gradient-container">
+    <span class="gradient"></span>
+  </span>
+</button>
 
 </div>
-
-<!-- Custom Alert -->
-<div id="customAlert" class="alert-overlay hidden">
-  <div class="alert-box">
-    <p id="alertMessage">Loading...</p>
-    <button id="alertClose">OK</button>
-  </div>
-</div>
-
-<script src="script.js"></script>
 <script>
-// Block browser back button
-history.pushState(null, null, location.href);
-window.onpopstate = function () {
-  // When user tries to go back, always reload index.html
-  history.go(1);
-  window.location.href = "index.html";
-};
+  function continueAction() {
+    window.location.href = "home.html";
+  };
 </script>
-
 </body>
 </html>

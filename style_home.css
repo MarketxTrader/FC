@@ -98,7 +98,7 @@
       font-size:24px;
       letter-spacing:1px;
     }
-    .logo img{height:100px;width:auto;}
+    .logo img{height:80px;width:auto;}
     .main{
       min-height:100vh;
       display:flex;
